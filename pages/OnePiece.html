@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>Minions</title>
+  
+
+  <link href="https://unpkg.com/video.js/dist/video-js.css" rel="stylesheet">
+  <script src="https://unpkg.com/video.js/dist/video.js"></script>
+  <script src="https://unpkg.com/videojs-contrib-hls/dist/videojs-contrib-hls.js"></script>
+  <link rel="stylesheet" href="../styless.css">
+   
+</head>
+<body>
+    <div class="buttoo">
+        <a href="../index.html"><button class="txt">Go Back</button></a>
+      </div>
+  <video id="my_video_1" class="video-js vjs-fluid vjs-default-skin" controls preload="auto"
+  data-setup='{}'>
+  <source src="https://a-c-2.dayimage.net/_v5/0bbea2a3ecea6492a0ab0a83b90ae6d9b89371c55191a37f629916ec34775b2f87717f4751248f4176de9cf36f3b4b6c628ea8f79e43f2812b0dc503c9b6755a005f2411c7e77972107b1e1cddadad9053ad1cf6a6d283132292b431baf75103544eafbf33f54878420408afbdfbbb0f4b399302d52c0ac11b108c3eacdbb972/index-f2-v1-a1.m3u8" type="application/x-mpegURL">
+  <div class="space"></div>
+    </video>
+    <!-- <video id="my_video_2" class="video-js vjs-fluid vjs-default-skin" controls preload="auto"
+        data-setup='{}'>
+        <source src="https://e-3.mzzcloud.life/_v8/edeb8cd4984fab2a78d931d03f1ae41ebd5402155a707364b80ea612d27b0047a7cdd9fd58f8111cd16d35f53c87b346166f779d25db7b05cf36933bb6a651d6ffe406603f26cef7fc6c43d274dd289568ad15ce7bc215e17fdd37f86d180beabf8013f87792691a8101cdd91001d6a190bf6d472d6a21caef913818c6f2162f/1080/index.m3u8" type="application/x-mpegURL">
+    </video> -->
+
+<script>
+var player = videojs('my_video_1');
+var player = videojs('my_video_2');
+player.play();
+</script>
+  
+</body>
+</html>
